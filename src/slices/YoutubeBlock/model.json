@@ -1,0 +1,34 @@
+{
+  "id": "image_block",
+  "type": "SharedSlice",
+  "name": "YoutubeBlock",
+  "description": "ImageBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "youtube_video_id": {
+          "type": "Text",
+          "config": {
+            "label": "Youtube Video ID",
+            "placeholder": "ectK37oRq7c"
+          }
+        },
+        "thumbnail_override": {
+          "type": "Image",
+          "config": {
+            "label": "Thumbnail Override",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
